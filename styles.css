@@ -5,8 +5,10 @@ body{
 }
 
 .attribution {
+    position: relative;
+    top: 100px;
     font-size: 11px; text-align: center;
-    font-family: Red Hat Display;
+    font-family: "Red Hat Display";
 }
 
 .attribution a {
@@ -57,6 +59,7 @@ body{
     width: 270px;
     height: 70px;
     background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
 }
 
 .pic2 {
@@ -66,3 +69,33 @@ body{
     width: 41px;
     height: 40px;
 }
+
+.price{
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-family: "Red Hat Display";
+    position: relative;
+    left: 65px;
+    bottom: 45px;
+}
+
+.annual{
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    font-size: 14px;
+    color: hsl(223, 47%, 23%);
+    position: relative;
+    left: 65px;
+    bottom: 29px;
+}
+
+.change {
+    display: inline;
+    font-family: "Red Hat Display";
+    color: hsl(245, 75%, 52%);
+    position: relative;
+    font-size: 14px;
+    bottom: 86px;
+    left: 210px;
+}
+
