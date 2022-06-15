@@ -90,6 +90,7 @@ body{
 }
 
 .change {
+    text-decoration: none;
     display: inline;
     font-family: "Red Hat Display";
     color: hsl(245, 75%, 52%);
@@ -99,3 +100,37 @@ body{
     left: 210px;
 }
 
+.buybutton {
+    text-decoration: none;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    position: relative;
+    left: 24px;
+    height: 45px;
+    width: 270px;
+    background-color: hsl(245, 75%, 52%);
+}
+
+.buybutton:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.cancel{
+    font-family: "Red Hat Display";
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    position: relative;
+    left: 120px;
+}
+
+.cancel:visited{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
